@@ -79,5 +79,65 @@ The main objective of this project is to understand unemployment patterns and st
 
 The analysis shows how unemployment rates varied across different regions and highlights the impact of the COVID-19 pandemic on employment conditions in India. Data visualization helped identify patterns and trends within the dataset.
 
+# Car Price Prediction with Machine Learning
+
+## Overview
+
+This project predicts the selling price of a car using Machine Learning. The model is trained on various car features such as car name, manufacturing year, present price, kilometers driven, fuel type, selling type, transmission type, and number of owners.
+
+## Objective
+
+The objective of this project is to develop a machine learning model that can estimate the selling price of a car based on its features and help understand the application of predictive analytics in the automobile industry.
+
+## Dataset
+
+The dataset contains the following columns:
+
+* Car_Name
+* Year
+* Selling_Price
+* Present_Price
+* Driven_kms
+* Fuel_Type
+* Selling_type
+* Transmission
+* Owner
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
+## Project Steps
+
+1. Import required libraries.
+2. Load the dataset.
+3. Explore and preprocess the data.
+4. Convert categorical data into numerical format.
+5. Select features and target variable.
+6. Split the dataset into training and testing sets.
+7. Train the Linear Regression model.
+8. Predict car prices.
+9. Evaluate model performance.
+10. Visualize the results.
+
+## Model Used
+
+* Linear Regression
+
+## Evaluation Metrics
+
+* Mean Absolute Error (MAE)
+* Mean Squared Error (MSE)
+* R² Score
+
+## Results
+
+The model successfully predicts car selling prices based on the given features. The evaluation metrics and visualization help assess the model's performance.
+
 
 
