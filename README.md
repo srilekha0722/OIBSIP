@@ -139,5 +139,70 @@ The dataset contains the following columns:
 
 The model successfully predicts car selling prices based on the given features. The evaluation metrics and visualization help assess the model's performance.
 
+# Email Spam Detection using Machine Learning
+
+## Overview
+
+Email Spam Detection is a Machine Learning project that classifies emails as Spam or Non-Spam (Ham). The model is trained on a dataset of email messages and uses Natural Language Processing (NLP) techniques to analyze the text and make predictions.
+
+## Objective
+
+The objective of this project is to build an intelligent system that can automatically detect spam emails and help users avoid unwanted or fraudulent messages.
+
+## Features
+
+* Data preprocessing and cleaning
+* Text feature extraction using TF-IDF Vectorization
+* Spam and Non-Spam classification
+* Machine Learning model training using Naive Bayes
+* Accuracy evaluation of the model
+* Prediction on custom email messages
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+
+## Dataset
+
+The dataset contains:
+
+* v1: Category (Spam or Ham)
+* v2: Message Text
+
+## Project Workflow
+
+1. Load the dataset.
+2. Preprocess and clean the data.
+3. Convert text data into numerical features using TF-IDF.
+4. Split the dataset into training and testing sets.
+5. Train the Multinomial Naive Bayes model.
+6. Evaluate model performance using accuracy score.
+7. Predict whether a new email is Spam or Not Spam.
+
+## Output
+
+The model classifies emails into:
+
+* Spam Email
+* Not Spam Email
+
+The model achieves high accuracy in detecting spam messages.
+
+## Learning Outcomes
+
+Through this project, I learned:
+
+* Machine Learning classification techniques
+* Natural Language Processing basics
+* Text vectorization using TF-IDF
+* Model training and evaluation
+* Real-world application of Machine Learning in email security
+
+## Conclusion
+
+This project demonstrates how Machine Learning and NLP can be used to automatically detect spam emails. The developed model successfully identifies unwanted messages and helps improve email filtering and security.
 
 
